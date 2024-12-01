@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 
     if (argc != 3)
     {
-        printf("Incorrect usage. You provided n arguments. The correct number of arguments is 2\n");
+        printf("Incorrect usage. You provided %d arguments. The correct number of arguments is 2\n", argc-1);
         return 1;
     }
     int converted;
